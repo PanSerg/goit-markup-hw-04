@@ -122,16 +122,29 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .head {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: rgba(47, 48, 58, 0.4);
-    background-image: url("../images/w4/Img1.jpg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2F303A;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: rgba(47, 48, 58, 0.4);
 }
+
+.overlay {
+  min-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: linear-gradient(no raight, rgba(47, 48, 58, 0.4)), 
+  url("../images/w4/Img1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 .head-title {
   margin-top: 0;
@@ -301,6 +314,10 @@ ul {
   background-color: var(--accent-color);
 }
 
+.word-blue {
+  color: var(--accent-color);
+}
+
 .contact-tel {
   color: var(--secondary-text-color);
 }
@@ -402,16 +419,6 @@ ul {
 .tim-title, .tim-text {
   align-items: center;
 } 
-
-.head {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
-}
 
 /* Button */
 
