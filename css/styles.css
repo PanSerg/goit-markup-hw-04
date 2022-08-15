@@ -138,8 +138,7 @@ h1,h2,h3,h4,h5,h6,p {
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: linear-gradient(no raight, rgba(47, 48, 58, 0.4)), 
-  url("../images/w4/Img1.jpg");
+  background-image: url("../images/w4/Img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -382,6 +381,48 @@ ul {
 
 .features-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.envelope::before {
+  background-image: url("../images/w4/envelope.svg");
+}
+
+.icon-delivery::before {
+  background-image: url("../images/w4/Vector.svg");
+  background-size: 65.32px 70px;
+}
+
+.icon-watch::before {
+  background-image: url("../images/w4/watch.svg");
+  background-size: 66.96px 70px;
+}
+
+.icon-laptop::before {
+  background-image: url("../images/w4/laptop.svg");
+  background-size: 70px 53.69px;
+}
+
+.icon-astronaut::before {
+  background-image: url("../images/w4/astronaut\ 1.svg");
+  background-size: 70px 70px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/w4/insta.svg);
 }
 
 .section-bottom {
