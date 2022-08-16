@@ -144,6 +144,22 @@ h1,h2,h3,h4,h5,h6,p {
   background-size: cover;
 }
 
+.button-ic {
+  padding: 0;
+  padding-top: 16px;
+  border: none;
+  background: none;
+  padding-right: 10px;
+}
+
+.button-ic:not(:last-child) {
+  padding-right: 10px;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
 
 .head-title {
   margin-top: 0;
