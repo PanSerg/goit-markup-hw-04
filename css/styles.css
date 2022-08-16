@@ -47,7 +47,6 @@ img {
 }
 
 .contacts {
-  margin-right: 50px;
   display: flex;
   margin-left: auto;
 }
@@ -187,7 +186,6 @@ h1,h2,h3,h4,h5,h6,p {
 /* Logo */
 
 .logo {
-  margin-right: 93px;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -254,6 +252,7 @@ ul {
 } 
 
 .logo-dark {
+  margin-right: 93px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -322,6 +321,7 @@ ul {
 }
 
 .contact {
+  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -463,7 +463,7 @@ ul {
 }
 
 .tim-title {
-  margin: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -592,6 +592,7 @@ ul {
 .logo-footer {
   display: block;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .street {
