@@ -170,6 +170,12 @@ h1,h2,h3,h4,h5,h6,p {
   border-radius: 100px;
 }
 
+.envelope {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
 .head-title {
   margin-top: 0;
   padding-bottom: 0;
