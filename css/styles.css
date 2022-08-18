@@ -427,11 +427,9 @@ ul {
   margin-bottom: 30px;
 }
 
-.features-logo::before {
-  display: block;
-  content: "";
+.features-logo {
+  
   height: 92px;
-  background-size: contain;
   background-repeat: no-repeat;
   box-sizing: border-box;
   background-position: center;
@@ -442,13 +440,13 @@ ul {
   margin-bottom: 94px;
 }
 
-.icon-delivery::before {
-  background-image: url("../images/w4/Vector.svg");
+.icon-delivery {
+  background-image: url("../images/w4/symbol-defs.svg#icon-vector");
   background-size: 65.32px 70px;
 }
 
-.icon-watch::before {
-  background-image: url("../images/w4/watch.svg");
+.icon-watch {
+  background-image: url("../images/w4/symbol-defs.svg#icon-watch");
   background-size: 66.96px 70px;
 }
 
@@ -465,7 +463,7 @@ ul {
 .icon {
   width: 20px;
   height: 20px;
-  background-image: url(../images/w4/insta.svg);
+  background-image: url(../images/w4/symbol-defs.svg);
 }
 
 .tim-networks {
@@ -473,38 +471,9 @@ ul {
 }
 
 .clients-container {
+  display: flex;
   box-sizing: border-box;
  
-}
-
-.icon-logo1::before {
-  background-image: url(../images/w4/logo1.svg);
-  background-size: 170px 92px;
-}
-
-.icon-logo2::before {
-  background-image: url(../images/w4/logo2.svg);
-  background-size: 170px 92px;
-}
-
-.icon-logo3::before {
-  background-image: url(../images/w4/logo3.svg);
-  background-size: 170px 92px;
-}
-
-.icon-logo4::before {
-  background-image: url(../images/w4/logo4.svg);
-  background-size: 170px 92px;
-}
-
-.icon-logo5::before {
-  background-image: url(../images/w4/logo5.svg);
-  background-size: 170px 92px;
-}
-
-.icon-logo6::before {
-  background-image: url(../images/w4/logo6.svg);
-  background-size: 170px 92px;
 }
 
 .section-bottom {
