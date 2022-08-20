@@ -162,7 +162,7 @@ h1,h2,h3,h4,h5,h6,p {
   display: flex;
   width: 44px;
   height: 44px;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background-position: center;
   border-radius: 50px;
@@ -637,9 +637,9 @@ font-family: 'Roboto';
 }
 
 .footer-container {
-  display: flex;
-  gap: 70px;
-  align-items: baseline;
+ display: flex;
+ gap: 70px;
+ align-items: baseline;
 }
 
 .item-with {
@@ -649,26 +649,30 @@ font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  padding-bottom: 20px;
 }
 
 .join {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .footer-link-soc {
   width: 44px;
-  height: 44;
+  height: 44px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+
+.footer-link-soc:not(:last-child) {
+  margin-right: 22px;
 }
 
 .footer-link-soc:hover,
@@ -701,8 +705,7 @@ font-family: 'Roboto';
 }
 
 .background {
-  margin-top: 16px;
-  margin-right: 10px;
+ 
 }
 
 /* Спрятанный заголовок */
