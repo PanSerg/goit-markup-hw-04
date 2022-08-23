@@ -56,6 +56,10 @@ img {
   margin-left: auto;
 }
 
+.indent {
+  margin-right: 30px;
+}
+
 .site-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -116,6 +120,7 @@ body {
   align-items: center;
   text-decoration: none;
   display: block;
+ 
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -155,8 +160,6 @@ h1,h2,h3,h4,h5,h6,p {
 .envelope {
   margin-right: 50px;
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
   fill: currentColor;
 }
 
@@ -254,8 +257,7 @@ ul {
 }
 
 .portfolio-card-link {
-  width: 370px;
-  height: 404px;
+ display: block;
 }
 
 .portfolio-card-link:hover,
@@ -280,9 +282,9 @@ ul {
 
 .logo-light {
   font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
@@ -295,11 +297,11 @@ ul {
   padding-left: 22px;
   background-color: #F5F4FA;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .filter {
@@ -309,6 +311,8 @@ ul {
 }
 
 .contacts-link {
+  display: flex;
+  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -340,12 +344,12 @@ ul {
 }
 
 .contact {
-  margin-right: 30px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  
 }
 
 .link:hover,
@@ -405,15 +409,15 @@ ul {
 }
 
 .features-title {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }
 
 .features-text {
@@ -455,7 +459,6 @@ ul {
   border-style: solid;
   border-color: var(--accent-color);
 }
-
 
 .clients-icon:hover .features-logo, 
 .clients-icon:focus .features-logo {
@@ -514,13 +517,13 @@ ul {
 
 .box-sizing {
   box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
 }
 
 .tim-title {
@@ -726,10 +729,6 @@ ul {
   fill: #ffffff;
   width: 20px;
   height: 20px;
-}
-
-.background {
- 
 }
 
 /* Спрятанный заголовок */
