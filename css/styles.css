@@ -113,6 +113,7 @@ body {
 .benefits-container {
   display: flex;
   align-items: center;
+   
 }
 
 .link {
@@ -418,6 +419,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
+  margin-right: 30px;
 }
 
 .features-text {
@@ -427,6 +429,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 
 .features-item:not(:last-child) {
   margin-right: 30px;
@@ -444,6 +447,10 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+}
+
+.text-indent {
+    padding-right: 30px;
 }
 
 .features-logo {
