@@ -480,7 +480,7 @@ ul {
 }
 
 .features-logo {
-  
+  fill: currentColor;
 }
 
 .clients-item {
