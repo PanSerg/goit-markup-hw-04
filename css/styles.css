@@ -110,12 +110,6 @@ body {
   align-items: center;
 }
 
-.benefits-container {
-  display: flex;
-  align-items: center;
-   
-}
-
 .link {
   display: flex;
   align-items: center;
@@ -155,7 +149,6 @@ h1,h2,h3,h4,h5,h6,p {
   padding-top: 16px;
   border: none;
   background: none;
-  
 }
 
 .envelope {
@@ -165,6 +158,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .team-link {
+  color: #AFB1B8;
   display: flex;
   width: 44px;
   height: 44px;
@@ -177,6 +171,7 @@ h1,h2,h3,h4,h5,h6,p {
 .team-link:hover,
 .team-link:focus {
   background-color: #2196f3;
+  color: #ffffff
 }
 
 .head-title {
@@ -259,6 +254,7 @@ ul {
 
 .portfolio-card-link {
  display: block;
+ text-decoration: none;
 }
 
 .portfolio-card-link:hover,
@@ -345,12 +341,13 @@ ul {
 }
 
 .contact {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  
 }
 
 .link:hover,
@@ -397,8 +394,8 @@ ul {
 }
 
 .section.no-padding {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .site-nav {
@@ -419,7 +416,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
-  margin-right: 30px;
 }
 
 .features-text {
@@ -430,9 +426,10 @@ ul {
   color: var(--secondary-text-color);
 }
 
-
-.features-item:not(:last-child) {
-  margin-right: 30px;
+.benefits-container {
+  gap: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .features-item {
@@ -447,10 +444,6 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 30px;
-}
-
-.text-indent {
-  padding-right: 30px;
 }
 
 .features-logo {
@@ -507,14 +500,10 @@ ul {
   gap: 10px;
 }
 
-
 .clients-container {
   display: flex;
   box-sizing: border-box;
 }
-
-
-
 
 .section-bottom {
   padding-top: 0;
@@ -720,14 +709,10 @@ ul {
 }
 
 .button-icon {
-  fill: #AFB1B8;
+  fill: currentColor;
+ 
   width: 20px;
   height: 20px;
-}
-
-.button-icon:hover,
-.button-icon:focus {
-  fill: #ffffff;
 }
 
 .button-icon-ft {
